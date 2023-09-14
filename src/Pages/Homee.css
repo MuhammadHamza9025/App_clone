@@ -1,0 +1,330 @@
+.Home {
+    display: flex;
+}
+
+/* Left Home 
+ */
+.Homeleft {
+    border: 2px solid rgb(194, 194, 194);
+    width: 25vw;
+    height: 100vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 70px;
+}
+
+.apilogos {
+    display: flex;
+    cursor: pointer;
+
+}
+
+.apilogos p,
+.apilogos span {
+    margin: 0.7em 0.5em;
+    font-size: large;
+}
+
+.apilogos span {
+    font-weight: 600;
+}
+
+.piccs {
+
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 49%;
+    object-position: center;
+}
+
+.piccs img {
+    width: 100%;
+    height: 100%;
+}
+
+.apipics2 {
+    margin-top: 1em;
+    display: flex;
+    margin-left: 1em;
+    cursor: pointer;
+    align-items: center;
+}
+
+.apipics2 span {
+    font-weight: 600;
+    margin: 1em 1.5em;
+}
+
+
+/* Homemid  */
+
+.maincomponent {
+    position: relative;
+}
+
+.Homemid {
+    position: relative;
+    top: 70px;
+
+    z-index: 20;
+    margin-left: 30px;
+}
+
+.mainpic {
+    position: relative;
+    width: 70.5vw;
+
+
+    overflow: hidden;
+    height: 300px;
+
+}
+
+.mainpic img,
+.profilepic img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.profilepic {
+    position: absolute;
+    height: 190px;
+    width: 190px;
+    top: 200px;
+    margin-left: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+
+.homeshare {
+    margin-left: 1em;
+    margin-top: 15em;
+    width: 60%;
+    height: 170px;
+
+    box-shadow: 1px 1px 10px 1px grey;
+    overflow: hidden;
+}
+
+.topbarimg2 {
+    display: flex;
+    width: 30px;
+
+}
+
+.imagecont {
+    display: flex;
+    width: 100%;
+}
+
+.picture {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.inputcont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.inputcont {
+    display: flex;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+}
+
+.inputcont input {
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 1.5em;
+    font-size: large;
+}
+
+.locatpic {
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-evenly;
+}
+
+.even {
+    display: flex;
+    align-items: center;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {}
+
+.postshare {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin-left: 1em;
+    box-shadow: 1px 2px 10px 1px grey;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.picandname {
+
+    /* border: 2px solid red; */
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+}
+
+.picp {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.picp img {
+    width: 100%;
+    height: 100%;
+}
+
+.picandname span {
+    font-weight: 600;
+}
+
+.picandname p {
+    font-size: small;
+    color: rgb(104, 106, 108);
+}
+
+.postshare h3 {
+    margin: 1.5em 1em;
+    font-weight: 300;
+}
+
+.bodypic {
+    width: 98%;
+    margin: auto;
+    height: 65%;
+    object-fit: cover;
+    object-position: center
+}
+
+.bodypic img,
+.frndimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.likeandcomment img {
+    width: 30px;
+    margin: 0.3em;
+    height: 30px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    color: rgb(114, 116, 118);
+
+}
+
+.comment {
+    position: relative;
+    right: 20px;
+    color: rgb(114, 116, 118);
+
+    display: flex;
+    align-items: center;
+
+}
+
+.likeandcomment {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.likeimg:active {
+    transition: 0.3s;
+    transform: scale(3);
+}
+
+.second {
+    height: 100%;
+    margin: 3em 1em 0em 0em;
+    border: 2px solid rgb(129, 127, 127);
+    width: 40%;
+}
+
+.frndmain {
+    display: flex;
+
+
+    flex-wrap: wrap;
+}
+
+.second h3 {
+    margin: 2em 0em 2em 2em;
+}
+
+.frndimage {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    margin: 1em;
+
+}
+
+.frndimage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.bodypic:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.onlineandimg {
+
+    position: relative;
+}
+
+.postshare h3 {
+    color: rgb(112, 114, 115);
+}
+
+.online {
+    position: absolute;
+    top: -4px;
+    right: -5px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(139, 215, 25);
+}

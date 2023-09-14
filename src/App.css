@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Topbar  */
+
+.leftbar span {
+  position: relative;
+  left: 10px;
+  font-size: larger;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topbarImg,
+.apipics {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.topbarImg img,
+.apipics img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+
+
+}
+
+.maincontainer {
+  position: fixed;
+  width: 100%;
+  z-index: 100000;
+
+  background: #2172da;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 70px;
+  justify-content: space-between;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.midbar,
+ul,
+.rightbar {
+
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.midbar input {
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+  padding: 0em 2em;
+}
+
+.midbar .input {
+  width: 450px;
+  height: 30px;
+  display: flex;
+  border-radius: 20px;
+  align-items: center;
+  padding: 0em 1em;
+  overflow: hidden;
+
+  color: rgb(88, 90, 91);
+  background-color: white;
+}
+
+.midbar ul li {
+  margin: 0em 1em;
+  list-style: none;
+}
+
+.rightbar {
+  width: 200px;
+  justify-content: space-between;
+  position: relative;
+  right: 30px;
+
+}
+
+.rightbar .localicons {
+  padding: 0em 0.5em;
+}
+
+.localicons {
+  font-size: larger;
+
+}
+
+.icons {
+  display: flex;
+  width: 200px;
+
+  position: relative;
+}
+
+.icons div {
+  padding: 0em 0.8em;
+  margin-top: 0.23em;
+}
+
+.icons sup {
+
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  width: 15px;
+  text-align: center;
+
+
 }
