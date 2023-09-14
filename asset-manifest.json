@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/App_clone/static/css/main.ec32801a.css",
+    "main.js": "/App_clone/static/js/main.670dc075.js",
+    "static/js/787.d1ec44ca.chunk.js": "/App_clone/static/js/787.d1ec44ca.chunk.js",
+    "static/media/4.jpeg": "/App_clone/static/media/4.66f201fb27800a4eb712.jpeg",
+    "static/media/7.jpeg": "/App_clone/static/media/7.9d510d3191dbe4b2b7b1.jpeg",
+    "static/media/9.jpeg": "/App_clone/static/media/9.2ea80c16679225d6ff6b.jpeg",
+    "static/media/8.jpeg": "/App_clone/static/media/8.3dd3ca5a7d84949d307f.jpeg",
+    "static/media/10.jpeg": "/App_clone/static/media/10.4e2df25e5bf282d33143.jpeg",
+    "static/media/71.jpeg": "/App_clone/static/media/71.fea4c13a8959077602cf.jpeg",
+    "static/media/51.jpeg": "/App_clone/static/media/51.728357295e986bdb115a.jpeg",
+    "static/media/2.jpeg": "/App_clone/static/media/2.f85985033922ab983185.jpeg",
+    "static/media/41.jpeg": "/App_clone/static/media/41.3518a6b0f9ae4897fac5.jpeg",
+    "static/media/31.jpeg": "/App_clone/static/media/31.79a0a4a045d718d364e6.jpeg",
+    "static/media/6.jpeg": "/App_clone/static/media/6.919f1e7ccbcfa8070739.jpeg",
+    "static/media/91.jpeg": "/App_clone/static/media/91.4303c42efbf9586f53cc.jpeg",
+    "static/media/11.jpeg": "/App_clone/static/media/11.e83c837531f556b56707.jpeg",
+    "static/media/accountpic.jpeg": "/App_clone/static/media/accountpic.e83c837531f556b56707.jpeg",
+    "static/media/21.jpeg": "/App_clone/static/media/21.e32f080b24e6b1267d3a.jpeg",
+    "static/media/5.jpeg": "/App_clone/static/media/5.13741948b6a3c21030e6.jpeg",
+    "static/media/61.jpeg": "/App_clone/static/media/61.0ff88cd1b4185466fad3.jpeg",
+    "static/media/3.jpeg": "/App_clone/static/media/3.8b12f805a7bc46bc38df.jpeg",
+    "static/media/81.jpeg": "/App_clone/static/media/81.aa68096afe4fa2f70ed7.jpeg",
+    "static/media/101.jpeg": "/App_clone/static/media/101.19633279ca321cb20f8c.jpeg",
+    "static/media/heart.png": "/App_clone/static/media/heart.d03a620755af56068dbd.png",
+    "static/media/like.png": "/App_clone/static/media/like.be1d10c9aba02398fa0c.png",
+    "static/media/logo.svg": "/App_clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/App_clone/index.html",
+    "main.ec32801a.css.map": "/App_clone/static/css/main.ec32801a.css.map",
+    "main.670dc075.js.map": "/App_clone/static/js/main.670dc075.js.map",
+    "787.d1ec44ca.chunk.js.map": "/App_clone/static/js/787.d1ec44ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec32801a.css",
+    "static/js/main.670dc075.js"
+  ]
+}
